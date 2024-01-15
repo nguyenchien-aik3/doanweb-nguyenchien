@@ -1,0 +1,402 @@
+header {
+    background-color:#ffffff;
+    width: auto;
+    height: 91px;
+    position:sticky !important;
+    top:0px;
+    z-index: 2;
+}
+
+.khung {
+    width: 1440px;
+    margin: auto;
+
+
+ 
+}
+.t1-tag {
+    width: 171px;
+    float: left;
+    padding-top: 33px;
+    padding-left: 15px;
+
+}
+.t3-tag {
+    font-size: 24px;
+    float: right;
+    padding-top: 32px;
+    padding-right: 15px;
+
+}
+.t4-tag {
+    font-size: 22px;
+    float: right;
+    padding-top: 33px;
+    margin-right: 20px;
+}
+.t5-tag {
+    font-size: 22px;
+    float: right;
+    padding-top: 33px;
+    padding-right: 20px;
+
+}
+.t6-tag {
+    font-size: 24px;
+    float: right;
+    padding-top: 33px;
+    padding-right:20px;
+    
+}
+.t7-tag a {
+    float: right;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-family: 'Jost', sans-serif;
+    padding-top: 36px;
+    padding-right: 340px;
+    font-weight: 700;
+
+}
+.t8-tag a{
+    float: right;
+    font-size: 17px;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    padding-top: 36px;
+    padding-right: 50px;
+    font-weight: 600;
+}
+
+.t9-tag a {
+    float: right;
+    font-size: 17px;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    padding-top: 36px;
+    padding-right: 50px;
+    font-weight: 600;
+}
+.t10-tag a {
+    float: right;
+    font-size: 17px;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    padding-top: 36px;
+    padding-right: 50px;
+    font-weight: 600;
+}
+.t11-tag a {
+    float: right;
+    font-size: 17px;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    padding-top: 36px;
+    padding-right: 50px;
+    font-weight: 600;
+}
+.le {
+    width: 1440px;
+    margin: auto;
+}
+
+
+
+
+.thanh-home {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    padding-top: 8px;
+    display: flex;
+}
+.thanh-home a3 {
+    color:#f3a395;
+    padding-left: 15px;
+}
+.homelink {
+    font-size: 16px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.homelink:hover {
+    color: #ffb3a8;
+}
+.thanh-home a2 {
+    font-size: 13px;
+    padding-left: 5px;
+    padding-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+.from-box-register {
+    background-color: #ffffff;
+    width: 500px;
+    height: 600px;
+    position: absolute;   /* Sử dụng 'absolute' để có thể sử dụng transform */
+    top: 40%;             /* Đặt top là 50% */
+    left: 50%;            /* Đặt left là 50% */
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border: 2px solid #e6e6e6;
+    display: block;
+}
+.logo-register {
+    padding-left: 200px;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 50px;
+    font-weight:600;
+    letter-spacing:2.5px;
+    color: rgb(62, 61, 61);
+}
+.email-adress-register {
+    width: 350px; /* Độ rộng của khung */
+    height: 60px;
+    margin-top: 18px;
+    margin-left: 70px;/* Khoảng cách giữa khung và nội dung xung quanh */
+    border: 2px solid #ccc; /* Độ dày và màu của đường viền */
+    border-radius: 5px; /* Độ cong của góc khung */
+    overflow: hidden;
+}
+.gmail-register {
+    padding-top: 23px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    width: 330px;
+}
+.password-register {
+    width: 350px; /* Độ rộng của khung */
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 70px;/* Khoảng cách giữa khung và nội dung xung quanh */
+    border: 2px solid #ccc; /* Độ dày và màu của đường viền */
+    border-radius: 5px; /* Độ cong của góc khung */
+    overflow: hidden;
+}
+.pass-register {
+    padding-top: 23px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    width: 330px;
+}
+.register {
+    border: 1px solid black;
+    width: 350px; /* Độ rộng của khung */
+    height: 60px; 
+    background-color: black;
+    margin-left: 70px;
+    margin-top: 35px;
+}
+.register:hover {
+    background-color:darksalmon;
+    border: 1px solid darksalmon;
+}
+.register a {
+    font-family: 'Jost', sans-serif;
+    color:#ffffff;
+    font-size: 17px;
+    padding-top:-20px;
+    font-weight: bold;
+    padding-left: 130px;
+    padding-top: 17px;
+}
+.back-register {
+    border: 2px solid #e6e6e6;
+    width: 350px; /* Độ rộng của khung */
+    height: 45px; 
+    background-color:#efeeee;
+    margin-left: 70px;
+    margin-top: 30px;
+    padding-top: 5px;
+}
+.back-register a {
+    font-family: 'Jost', sans-serif;
+    color:#000000;
+    font-size: 15px;
+    padding-top: 7px;
+    padding-left: 132px;
+}
+.back-:hover a {
+    color: darksalmon;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #f3f3f3;
+    width: auto;
+    height: 425px;
+    margin-top: 840px;
+
+}
+.footer-as {
+    padding-top: 50px;
+    display: flex;
+}
+.footer1 {
+    width: 350px;
+}
+.footer1 img {
+    width: 55%;
+    height: 13%;
+    padding-left: 15px;
+}
+.timeline {
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    margin-top: 15px;
+    width: 250px;
+    margin-left: 15px;
+}
+.footer2 {
+    margin-left: 30px;
+}
+.fot-2-1{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+.fot-2-2 {
+    border-top: 2px solid #000000;
+    width: 50px;
+    margin-top: 20px;
+}
+.fot-2-3 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 20px;
+}
+.fot-2-4 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 10px;
+}
+.fot-2-5 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 10px;
+}
+.fot-2-6 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 10px;
+}
+.fot-2-7 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 10px;
+}
+
+.footer3 {
+    margin-left: 250px;
+}
+.fot-3-1{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+.fot-3-2 {
+    border-top: 2px solid #000000;
+    width: 50px;
+    margin-top: 20px;
+}
+.fot-3-3 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 20px;
+}
+.fot-3-4 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 10px;
+}
+.fot-3-5 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 10px;
+}
+.fot-3-6 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 10px;
+}
+.fot-3-7 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 10px;
+}
+
+
+.footer4 {
+    margin-left: 250px;
+}
+.fot-4-1{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+.fot-4-2 {
+    border-top: 2px solid #000000;
+    width: 50px;
+    margin-top: 20px;
+}
+.fot-4-3 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 20px;
+}
+.fot-4-4 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 10px;
+}
+.fot-4-5 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 10px;
+}
+.fot-4-6 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 10px;
+}
+.fot-4-7 {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 10px;
+}
+
+.end {
+    border-top: 1px solid #d0d0d0;
+    display: flex;
+    margin-top: 70px;
+}
+.end end1 {
+    font-size: 13px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 20px;
+}
+.end img{
+    padding-left: 800px;
+    padding-top: 20px;
+}
