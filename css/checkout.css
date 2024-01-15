@@ -133,12 +133,21 @@ header {
 
 
 
+
+
+
+
 .checkout {
+    display: flex;
+}
+
+
+.checkout-p {
     padding-left: 170px;
     padding-top: 30px;
     border-right: 2px solid #ccc;
     float: left;
-    width: 700px;
+    width: 1250px;
 }
 .contact-1 {
     font-size: 25px;
@@ -344,7 +353,6 @@ header {
 }
 .pay:hover {
     background-color: #ffb3a8;
-
 }
 
 
@@ -353,6 +361,90 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
+.checkout {
+    display: flex;
+}
+.checkout-sp {
+    margin-left: 80px;
+    display: flex;
+    margin-top: 45px;
+}
+.sp-right-1 {
+    float: left;
+}
+.sp-left-1 {
+    float: right;
+
+
+}
+.sanpham {
+    display: flex;
+}
+.namesp{
+    float: right;
+    font-family: 'Jost', sans-serif;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.sanpham img {
+    width: 15%;
+    height: 15%;
+    border: 2px solid #ccc;
+}
+.ts1 {
+    font-family: 'Jost', sans-serif;
+    font-size: 17px;
+    padding-top: 23px;
+}
+.ts2 {
+    font-family: 'Jost', sans-serif;
+    font-size: 17px;
+    padding-top: 10px;
+}
+.ts3 {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+
+
+.tas4 {
+    font-family: 'Jost', sans-serif;
+    font-size: 17px;
+
+
+    
+}
+.tas5 {
+    font-family: 'Jost', sans-serif;
+    font-size: 17px;
+
+ 
+}
+.tas6 {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+
+
+}
+.tas7 {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+
+
+}
 
 
 
